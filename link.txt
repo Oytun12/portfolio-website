@@ -1,16 +1,1 @@
 https://oytun12.github.io/portfolio-website/
-
-let fruits =['Apple','Banana','Orange','Mango'];
-
-console.log(fruits[0]); 
-
-fruits.push('Grapes');
-fruits.pop();
-
-for(let i=0; i<fruits.length; i++){
-    console.log(fruits[i])
-}
-
-
-let greeting = "hello world";
-console.log(greeting);
