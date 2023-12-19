@@ -1,0 +1,178 @@
+body{
+    background: #131313;
+    color: #525252;
+    font-family: verdana,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.sayfa{
+    width: 1000px;
+    margin: auto;
+}
+.ust{
+    background: #232323;
+}
+#logo{
+    float: left;
+    width: 260px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#logo h1{
+    width: 440px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    /* border: 1px solid #fff; */
+    
+}
+
+#logo h1 a{
+    font-family: Georgia;
+    text-decoration: none;
+    color: #DBDBDB;
+    letter-spacing: 3px;
+}
+
+#logo p{
+    color: #DBDBDB;
+    font-family: Georgia;
+    margin-left: 3px;
+    margin-top: 0;
+    padding-top: 0;
+    letter-spacing: 2px;
+}
+
+#menu{
+    float: right;
+    width: 650px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 13px;
+    text-align: right;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+    margin-right: 35px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Verdana;
+    color: #DBDBDB;
+}
+
+.orta{
+    display: flex;       
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content:baseline;
+    /*border: 1px solid #fff;*/
+}
+.orta-orta{
+    display: flex;
+    width: 330px;
+    height: 290px;
+    margin-left: 5px;
+    margin-right:8px;
+
+
+}
+
+.orta-sol{
+    width: 330px;
+    height: 300px;
+    margin-right: 3px;
+    float: left;
+    /*background-color: #deb019b3;*/
+    background-color: #fdc609;
+    /*border: 1px solid #fff;*/
+}
+
+.orta-sag{
+    width: 330px;
+    height: 280px;
+    background: #fdc609;
+    padding: 10px;
+    /*border: 1px solid #fff;*/
+}
+
+.orta-sag img{
+    box-shadow: 10px 10px 10px rgb(100, 100, 100);
+}
+.orta-sol img{
+    box-shadow: 10px 10px 10px rgb(100, 100, 100);
+    width: 250px;
+    height: 240px;
+    margin: 29px 0 0 35px;
+}
+.sol-resim{
+    margin-left: 5px;
+}
+.orta-resim{
+    margin: 0 15px;
+    
+    
+}
+
+
+.sol-card{
+    width: 290px;
+    float: left;
+    
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.orta-card{
+    width: 300px;
+    float: left;
+}
+.sag-card{
+    width: 320px;
+    float: left;
+
+    margin-left: 35px;
+    
+}
+.sag-card h1{
+    padding: 0 20px 0 20px;
+
+}
+
+
+.icerik h1{
+    text-align: center;  
+    border-bottom: 1px dotted white;
+    padding-bottom: 15px;
+    
+}
+.card:nth-child(3){
+    margin:0px;
+}
+
+
+
+.button a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fdc609;
+    background-color: #232323;
+    text-decoration: none;
+    
+}
+
+.clear{
+    clear: both;
+}
