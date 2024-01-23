@@ -1,0 +1,259 @@
+body{
+    background: #131313;
+    color: #525252;
+    font-family: verdana,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.sayfa{
+    width: 1000px;
+    margin: auto;
+}
+.ust{
+    background: #232323;
+}
+
+/*menü bar*/
+#main {                       
+    padding: 20px;
+}
+
+#menu-icon {
+
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+    z-index: 2; /* Diğer öğelerin üstte görünmesi için */
+    
+}    
+#sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 90px;
+
+
+}
+
+#sidebar a {
+    padding: 15px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#sidebar a:hover {
+    color: #f1f1f1;
+}     
+/*kadar*/
+
+#logo{
+    float: left;
+    width: 260px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+#logo h1{
+    width: 440px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    /* border: 1px solid #fff; */
+    
+}
+
+#logo h1 a{
+    font-family: Georgia;
+    text-decoration: none;
+    color: #DBDBDB;
+    letter-spacing: 3px;
+}
+
+#logo p{
+    color: #DBDBDB;
+    font-family: Georgia;
+    margin-left: 3px;
+    margin-top: 0;
+    padding-top: 0;
+    letter-spacing: 2px;
+}
+
+#menu{
+    float: right;
+    width: 650px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-size: 13px;
+    text-align: right;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+    margin-right: 35px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Verdana;
+    color: #DBDBDB;
+}
+
+.orta{
+    float: inline-end;
+    display: flex;  
+    width: 1000px;     
+    margin-top: 20px;
+    margin-bottom: 10px;
+    justify-content:baseline;
+    /*border: 1px solid #fff;*/
+}
+
+.orta-sol{
+    border: 1px solid #fff;
+    width: 320px;
+    height: 1205px;
+    margin-right: 23px;
+    float: left;
+    /*background-color: #deb019b3;*/
+    background-color: #fdc609;
+    /*border: 1px solid #fff;*/
+}
+
+
+.orta-orta{
+    border: 1px solid #fff;
+    width: 320px;
+    height: 1406px;
+    margin-right: 23px;
+    float: left;
+    /*background-color: #deb019b3;*/
+    background-color: #fdc609;
+    /*border: 1px solid #fff;*/
+}
+
+.orta-sag{
+    border: 1px solid #fff;
+    width: 320px;
+    height: 1853px;
+    margin-right: 33px;
+    float: left;
+    /*background-color: #deb019b3;*/
+    background-color: #fdc609;
+    /*border: 1px solid #fff;*/
+}
+
+
+.foto-grid-sol{
+    display: grid;
+    grid-template-columns: 1fr; /* Tek bir sütun */
+    gap: 10px; /* İstenilen boşluk miktarını ayarlayabilirsiniz */
+}
+.foto-grid-orta{
+    display: grid;
+    grid-template-columns: 1fr; /* Tek bir sütun */
+    gap: 10px; /* İstenilen boşluk miktarını ayarlayabilirsiniz */
+}
+.foto-grid-sag{
+    display: grid;
+    grid-template-columns: 1fr; /* Tek bir sütun */
+    gap: 10px; /* İstenilen boşluk miktarını ayarlayabilirsiniz */
+}
+.orta-sag img{
+    box-shadow: 10px 10px 10px rgb(100, 100, 100);
+    width: 280px;
+    margin: 29px 0 0 10px;
+}
+.orta-sol img{
+    box-shadow: 10px 10px 10px rgb(100, 100, 100);
+    width: 280px;
+    margin: 29px 0 0 10px;
+    
+}
+
+.orta-orta img{
+    box-shadow: 10px 10px 10px rgb(100, 100, 100);
+    width: 280px;
+    margin: 29px 0 0 10px;
+    
+}
+.sol-resim{
+    margin-left: 5px;
+}
+.orta-resim{
+    margin: 0 15px;
+    
+    
+}
+
+
+.sol-card{
+    width: 305px;
+    float: left;
+    margin-right: 25px;
+    
+}
+.orta-card{
+    width: 308px;
+    float: left;
+    margin-right: 20px;
+   
+}
+.sag-card{
+    width: 310px;
+    float: left;
+    
+    
+    
+}
+.sag-card h1{
+    padding: 0 20px 0 20px;
+
+}
+
+
+.icerik h1{
+    text-align: center;  
+    border-bottom: 1px dotted white;
+    padding-bottom: 15px;
+    
+}
+.card:nth-child(3){
+    margin:0px;
+}
+
+
+
+.button a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fdc609;
+    background-color: #232323;
+    text-decoration: none;
+    
+}
+
+.clear{
+    clear: both;
+}
